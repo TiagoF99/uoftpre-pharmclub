@@ -137,6 +137,9 @@ body {
 	#initial-screen {
 		width: fit-content;
 	}
+	#header > span {
+	font-size: 200%;
+}
 }
 @media (max-width: 470px) {
 	#tab-container {
