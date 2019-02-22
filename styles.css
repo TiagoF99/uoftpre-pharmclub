@@ -114,12 +114,9 @@ body {
 #contact-list li {
 	margin-bottom: 20px;
 }
-
-@media (min-width: 1200px) {
-	#tab {
-		margin-top: 20px;
+#tab {
+		margin-top: 10px;
 	}
-}
 @media (max-width: 991px) {
 
 	#title {
