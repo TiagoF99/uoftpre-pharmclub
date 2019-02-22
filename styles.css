@@ -16,7 +16,6 @@ body {
 }
 #header > span {
 	color: white;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal;
 	margin: 18px;
 	font-size: 100%;
 	font-weight: bold;
@@ -135,7 +134,8 @@ body {
 }
 @media (max-width: 574px) {
 	#initial-screen {
-		width: fit-content;
+		width: 120%;
+		height: auto;
 	}
 	#header > span {
 	font-size: 200%;
