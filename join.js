@@ -4,7 +4,7 @@
 
 	window.join = function() {
 		document.getElementById('tab').innerHTML = 
-		"<form id='email' action='jaheinsha.yousif@gmail.com' method='post' enctype='text/plain'> Name:<br>\
+		"<form id='email' action='mailto:jaheinsha.yousif@gmail.com' method='post' enctype='text/plain'> Name:<br>\
 		<input type='text' name='name'><br>E-mail:<br>\
 		<input type='text' name='mail'><br>Comment:<br>\
 		<input id='comment' type='text' name='comment' size='50'><br><br>\
