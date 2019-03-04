@@ -6,8 +6,9 @@
 		document.getElementById('tab').innerHTML = 
 		"<form id='email' action='mailto:jaheinsha.yousif@gmail.com' method='post' enctype='text/plain'> Name:<br>\
 		<input type='text' name='name'><br>E-mail:<br>\
-		<input type='text' name='mail'><br>Comment:<br>\
-		<input id='comment' type='text' name='comment' size='50'><br><br>\
+		<input type='text' name='e-mail'><br>Comment:<br>\
+		<input id='comment' type='text' name='comment' size='50' style='margin-bottom:0;'><br><br>\
+		<div style='font-size: 50%; margin-bottom:10px;'>Please note this function is not supported by all browsers.</div> \
 		<input type='submit' value='Send'>\
 		<input type='reset' value='Reset'></form>";
 
