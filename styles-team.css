@@ -179,3 +179,9 @@ body {
 	left: 15px;
 }
 }
+#president {
+	color: red!important;
+}
+.card {
+	margin-bottom: 10px;
+}
