@@ -163,7 +163,10 @@ body {
 	}
 	#useful-links img {
 	top: 5px;
-}
+	}
+	#minoo {
+		margin-top: 15px;
+	}
 
 }
 @media (max-width: 767px) {
@@ -184,4 +187,7 @@ body {
 }
 .card {
 	margin-bottom: 10px;
+}
+.minoo {
+	height: initial;
 }
