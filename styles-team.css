@@ -45,6 +45,7 @@ hr {
 #photo-container {
 	width: 100px;
 	height: 100px;
+	border: 0!important;
 }
 #photo-container div {
 	height: inherit;
@@ -137,7 +138,7 @@ body {
 #useful-links {
 	position: relative;
 	top: 30px;
-	height: fit-content;
+	height: 50%;
 	font-size: 80%;
 }
 
