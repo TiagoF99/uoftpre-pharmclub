@@ -6,7 +6,7 @@ body {
 #initial-screen {
 	height: 100vh;
 	width: 100vw;
-	background-image: url(pill.jpg);
+	background-image: url(image/pill.jpg);
 	background-size: cover;
 }
 #header{
