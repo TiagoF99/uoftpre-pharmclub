@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+}
+#header{
+	text-align: center;
+	background-image: url("image/cloud.jpg");
+	height: 60px;
+}
+#header > span {
+	position: relative;
+	top: 15px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal;
+	margin: 18px;
+	font-size: 120%;
+	font-weight: bold;
+}
+#header a {
+	text-decoration: none;
+	color: white;
+}
+#header > span:hover {
+	border-bottom: solid 3px black;
+}
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#title {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal; font-variant: normal;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#container {
+	padding: 0;
+	width: 90%;
+}
+
+#member-info div {
+	text-align: center;
+}
+#photo-container {
+	width: 100px;
+	height: 100px;
+	border: 0!important;
+}
+#photo-container div {
+	height: inherit;
+	width: fit-content;
+}
+#member-title {
+	font-weight: bold;
+	margin-top: 10px;
+}
+#footer-info {
+	text-align: center;
+	font-size: 55%;
+	color: white;
+}
+#footer-line {
+	width: 20%;
+	align-self: center;
+	margin-bottom: 0;
+}
+#footer {
+	margin-bottom: 10px;
+}
+#event {
+	margin: 30px 5% 0 5%;
+}
+body {
+	width: fit-content;
+}
+#member-photo {
+	all: inherit;
+}
+#member-image {
+	height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+#tiago-container {
+	all:initial;
+}
+#bottom {
+	background-color:  #343a40;
+	
+}
+#bottom-line {
+	margin-top: 30px;
+}
+#logo {
+	margin: 30px 0 30px 0;
+	border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+#bottom-title {
+	font-size: 270%;
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+	text-align: center;
+}
+#bottom-contact {
+	color: white;
+	font-size: 120%;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+@media (max-width: 1050px) {
+	#bottom-title {
+		font-size: 200%;
+	}
+	#bottom-contact {
+		font-size: 80%;
+	}
+	
+}
+
+.card-text {
+	font-size: 60%;
+}
+#logo img {
+	height: 200px;
+	position: relative;
+	left: 17px; 
+}
+#useful-links img {
+	width: 190px;
+	height: 80%;
+	position: relative;
+	top: 10px;
+}
+#useful-links {
+	position: relative;
+	top: 30px;
+	height: 50%;
+	font-size: 80%;
+}
+
+@media (min-width: 1465px) {
+.solo {
+	text-align: -webkit-center;
+    margin-left: 70px;
+	}
+}
+
+/*Remove this if you want to get pictures back to small form*/
+@media (min-width: 1200px) {
+	#photo-container {
+		width: 145px;
+		height: 165px;
+	}
+}
+
+@media (max-width: 575px) {
+	.card {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#title {
+		font-size: 250%;
+	}
+	#bottom-title {
+		font-size: 200%;
+	}
+	#bottom-contact {
+		font-size: 100%;
+	}
+	#useful-links img {
+	top: 5px;
+	}
+	#minoo {
+		margin-top: 15px;
+	}
+
+}
+@media (max-width: 767px) {
+	#bottom-title {
+		text-align: center;
+	}
+	#bottom-contact {
+		text-align: center;
+	}
+	#logo img {
+	height: 200px;
+	top: 40px;
+	left: 15px;
+}
+}
+#president {
+	color: red!important;
+}
+.card {
+	margin-bottom: 10px;
+}
+.minoo {
+	height: initial;
+}

@@ -15,10 +15,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A social platform for undergraduate students with ambitions to study pharmacy.">
+    <meta name="keywords" content="HTML,CSS,JavaScript, Uoft, Computer, Science, Student, University, Toronto, Pharmacy, pre, yousif, undergraduate
+    platform, events, team, members, minoo, sofia, arman">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles-team.css">
+    <!--SITE CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/styles-team.css">
+
+    <!--Vue component -->
+    <script type="text/javascript" src="assets/eventcomponent.js"></script>
 
     <title>Uoft Pre-Pharmacy Club</title>
   </head>
@@ -30,21 +37,29 @@
       <span><a href="team.html">TEAM</a></span>
     </div>
 
-     <hr>
+    <hr>
 
+    <!--Vue.js Component -->
+    <div id="app-4">
+      <ol style="padding: 0; list-style-type: none;">
+        <li v-for="event in eventList">
 
-     <div id='event' class="row no-gutters bg-light position-relative">
-        <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="image/event.jpg" class="w-100 img-fluid" alt="Responsive image">
-        </div>
-        <div class="col-md-6 position-static p-4 pl-md-0">
-          <h5 class="mt-0">Coming Soon...</h5>
-          <p>UofT pre pharmacy club social. Meet like minded indiviuals, bring your friends. Free food and drinks!</p>
-          <span><a href="#" class="stretched-link">RSVP HERE</a></span>
-          <span>DATE</span>
-          <SPAN>LOCATION</SPAN>
-        </div>
-     </div>
+          <div id='event' class="row no-gutters bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+              <img src="assets/image/event.jpg" class="w-100 img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-6 position-static p-4 pl-md-0">
+              <h5 class="mt-0">{{event.title}}</h5>
+              <p>{{event.desc}}</p>
+              <span><a href="#" class="stretched-link">RSVP HERE</a></span>
+              <span>{{event.date}}</span>
+              <span>{{event.location}}</span>
+            </div>
+          </div>
+
+        </li>
+      </ol>
+    </div>
 
      <hr id='bottom-line'>
       <div class='container-fluid' id='bottom'>
@@ -57,13 +72,13 @@
             <center><div><a href="team.html">2019 Executive Team</a></div></center>
             <center><div><a target="_blank" href="https://pharmacy.utoronto.ca/">Leslie Dan Faculty of Pharmacy</a></div></center>
             <center><div><a target="_blank" href="https://www.pcatweb.info/">Pharmacy College Admission Test</a></div></center>
-            <center><div><img src="image/pcat.jpg"></div></center>
+            <center><div><img src="assets/image/pcat.jpg"></div></center>
 
 
           </div>
 
           <div id='logo' class='col-xs-12 col-md-4'>
-            <center><img src="image/logo.png"></center>
+            <center><img src="assets/image/logo.png"></center>
           </div>
 
           <div class='col-xs-12 col-md-4'>
@@ -79,17 +94,12 @@
           <div class='col-12'>
             <div id="footer">
               <hr id="footer-line">
-              <div id="footer-info">This site was designed and developed by Tiago Ferreira &copy; 2019</div>
+              <div id="footer-info">Uoft PrePharmacy &copy; 2019; Please note we are not affiliated with any pharmacy schools.</div>
             </div>  
           </div>
         </div>
       </div>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
   </body>
 </html>
